@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 p2.textContent = `/ 100`
                 const span2 = this.createElement('span')
                 span2.textContent = element.score
-                div2.append(span2,p2)
+                div2.append(span2, p2)
                 // Incluindo no li e depois na ul
                 li.append(div1, div2)
                 ul.appendChild(li)
@@ -58,18 +58,15 @@ document.addEventListener('DOMContentLoaded', function () {
             });
 
 
-
-
-
-
-
-
-
-
-
-
         })
         .catch(error => {
             console.error('Ocorreu um erro ao carregar o JSON:', error);
         });
+})
+
+document.querySelector('button').addEventListener('click', () => {
+    alert("Obrigado por participar!\nEsta é uma página de exercícios destinada apenas ao treinamento. \nFique atento, pois esta página será atualizada em breve!")
+
+    location.reload()
+
 })
