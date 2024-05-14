@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 li.classList = 'categoria'
 
                 switch (element.category) {
-                    case 'Reaction':
+                    case 'Reacao':
                         li.style.backgroundColor = 'var(--corC-VermelhoClaro)'
                         break;
-                    case 'Memory':
+                    case 'Memoria':
                         li.style.backgroundColor = 'var(--corC-AmareloAlaranja)'
                         break;
                     case 'Verbal':
